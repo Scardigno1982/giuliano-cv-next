@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   about: "Estudiante",
   summary:
     "Soy una persona apasionada por la tecnología y el análisis de datos, con habilidades desarrolladas en informática y diseño. Me gusta resolver problemas, crear soluciones tecnológicas y aplicar la creatividad en mis proyectos. Busco crecer profesionalmente en el área de tecnología, combinando mis conocimientos prácticos y teóricos.",
-  avatarUrl: "/img/tuki.webp",
+  avatarUrl: "/img/giuli.jpg",
   personalWebsiteUrl: "#",
   contact: {
     email: "#",
