@@ -31,14 +31,14 @@ export const RESUME_DATA = {
   avatarUrl: "/img/giuli.jpg",
   personalWebsiteUrl: "#",
   contact: {
-    email: "#",
+    email: "giulianonetti82@gmail.com",
     tel: "+5492241679616",
     asesoramiento: "/",
     social: [
       {
-        name: "LinkedIn",
-        url: "#",
-        icon: LinkedInIcon,
+        name: "Github",
+        url: "https://github.com/GiulianoNetti",
+        icon: GitHubIcon,
       },
     ],
   },
@@ -47,7 +47,7 @@ export const RESUME_DATA = {
       school: "Escuela de Educacion Secundaria Tecnica N1",
       link: "#",
       degree:
-        "En proceso... Estudiante de nivel secundario con interes en las carreras tecnologicas",
+        "Estudiante de nivel secundario con orientación en carreras tecnológicas, enfocado en adquirir competencias técnicas y prácticas en el ámbito de la tecnología.",
       aptitudes: "",
       start: "2023",
       end: "2026",
@@ -62,7 +62,8 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       start: "2023",
       end: "2024",
-      description: "Instalador de equipos de internet.",
+      description:
+        "Responsable de la instalación y configuración de equipos de internet para diversos clientes, asegurando un servicio eficiente y de calidad.",
     },
   ],
 
