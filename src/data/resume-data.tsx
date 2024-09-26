@@ -21,7 +21,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Giuliano Netti",
-  initials: "SS",
+  initials: "GN",
   location: "Chascomus, Buenos Aires, AR",
   locationLink:
     "https://www.google.com/maps/place/Chascomus,+Provincia+de+Buenos+Aires/",
@@ -36,11 +36,6 @@ export const RESUME_DATA = {
     asesoramiento: "/",
     social: [
       {
-        name: "Facebook",
-        url: "#",
-        icon: GitHubIcon,
-      },
-      {
         name: "LinkedIn",
         url: "#",
         icon: LinkedInIcon,
@@ -49,27 +44,25 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "EducacionIT",
-      link: "https://www.educacionit.com/perfil/sergio-scardigno-266821",
-      degree: "Devops Engineer",
-      aptitudes:
-        "Terraform · DevOps · Ansible · Jenkins · Kubernetes · AWS CloudFormation · Docker · GitOps · Amazon Web Services (AWS)",
+      school: "Escuela de Educacion Secundaria Tecnica N1",
+      link: "#",
+      degree:
+        "En proceso... Estudiante de nivel secundario con interes en las carreras tecnologicas",
+      aptitudes: "",
       start: "2023",
-      end: "2024",
+      end: "2026",
     },
   ],
   work: [
     {
-      company:
-        "Dirección General de Cultura y Educación de la Provincia de Buenos Aires · Jornada completa",
+      company: "Magdalena Virtual",
       link: "https://mapaescolar.abc.gob.ar",
       badges: [],
-      title: "Programador Full-Stack Developer | Sysadmin | DevOps",
+      title: "Tecnico Instalador",
       logo: ParabolLogo,
       start: "2023",
-      end: "now",
-      description:
-        "Administración de bases de datos SQL y Postgresql, Desarrollo de proyectos Angular y web. Implementacion de Jelkins para la automatizacion de proyectos.",
+      end: "2024",
+      description: "Instalador de equipos de internet.",
     },
   ],
 
@@ -94,10 +87,7 @@ export const RESUME_DATA = {
 
   // end insert
 
-  skills: [
-    "PHP",
-    
-  ],
+  skills: ["Internet, Microsoft Office, Windowss"],
   projects: [
     {
       title: "Vagrant, Docker, Kubernetes, Helm y ArgoCD",
