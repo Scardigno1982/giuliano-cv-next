@@ -87,7 +87,7 @@ export const RESUME_DATA = {
 
   // end insert
 
-  skills: ["Internet, Microsoft Office, Windowss"],
+  skills: ["Internet, Microsoft Office, Windows"],
   projects: [
     {
       title: "Vagrant, Docker, Kubernetes, Helm y ArgoCD",
