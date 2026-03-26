@@ -8,6 +8,7 @@ import { GlobeIcon, MailIcon, PhoneIcon, Speech } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import { ProfessionalProfileBanner } from "@/components/professional-profile-banner";
 import Image from "next/image";
 
 export const metadata: Metadata = {
@@ -102,6 +103,10 @@ export default function Page() {
           <p className="text-pretty font-mono text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Perfil profesional</h2>
+          <ProfessionalProfileBanner email={RESUME_DATA.contact.email} />
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Experiencia laboral</h2>
